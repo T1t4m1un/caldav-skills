@@ -6,21 +6,36 @@
 
 ## 安装
 
-### 方式一：下载 .skill 包（推荐）
+### 方式一：skills CLI（推荐）
 
-从 [Releases](../../releases) 下载 `caldav.skill`，放到 `~/.agents/skills/` 目录解压即可。
+```bash
+# 全局安装到 opencode
+npx skills add T1t4m1un/caldav-skills -g -a opencode
 
-### 方式二：直接放到 skills 目录
+# 全局安装到所有检测到的 agent
+npx skills add T1t4m1un/caldav-skills -g
+
+# 项目级安装
+npx skills add T1t4m1un/caldav-skills
+```
+
+> `skills` CLI 支持 OpenCode / Claude Code / Codex / Cursor / Gemini CLI 等 50+ agent。
+
+### 方式二：Git Clone
 
 ```bash
 git clone https://github.com/T1t4m1un/caldav-skills.git ~/.agents/skills/caldav
 ```
 
-### 方式三：子模块
+### 方式三：Git Submodule
 
 ```bash
 git submodule add https://github.com/T1t4m1un/caldav-skills.git .agents/skills/caldav
 ```
+
+### 方式四：.skill 包
+
+从 [Releases](../../releases) 下载 `caldav.skill`，放到 `~/.agents/skills/` 目录解压。
 
 ## 使用
 
