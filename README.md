@@ -13,13 +13,13 @@
 ### 方式二：直接放到 skills 目录
 
 ```bash
-git clone https://github.com/T1t4m1un/caldav-skill.git ~/.agents/skills/caldav
+git clone https://github.com/T1t4m1un/caldav-skills.git ~/.agents/skills/caldav
 ```
 
 ### 方式三：子模块
 
 ```bash
-git submodule add https://github.com/T1t4m1un/caldav-skill.git .agents/skills/caldav
+git submodule add https://github.com/T1t4m1un/caldav-skills.git .agents/skills/caldav
 ```
 
 ## 使用
